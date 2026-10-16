@@ -1,0 +1,366 @@
+case_id,crime_type,region,disposal_days,estimation_method
+3,Fraud or Cheating,Kerala,33,state_bail_real_x_crimetype_multiplier
+63,Theft or Robbery,Madhya Pradesh,22,pooled_bail_real_x_crimetype_multiplier
+64,Fraud or Cheating,Maharashtra,26,state_bail_real_x_crimetype_multiplier
+72,Fraud or Cheating,Delhi,10,state_bail_real_x_crimetype_multiplier
+83,Fraud or Cheating,Gujarat,26,pooled_bail_real_x_crimetype_multiplier
+85,Fraud or Cheating,Delhi,7,state_bail_real_x_crimetype_multiplier
+86,Fraud or Cheating,Himachal Pradesh,282,pooled_bail_real_x_crimetype_multiplier
+95,Fraud or Cheating,Haryana,49,pooled_bail_real_x_crimetype_multiplier
+99,Fraud or Cheating,Odisha,1,pooled_bail_real_x_crimetype_multiplier
+100,Theft or Robbery,Madhya Pradesh,364,pooled_bail_real_x_crimetype_multiplier
+105,Theft or Robbery,Karnataka,17,pooled_bail_real_x_crimetype_multiplier
+113,Theft or Robbery,Himachal Pradesh,6,pooled_bail_real_x_crimetype_multiplier
+139,Fraud or Cheating,Delhi,5,state_bail_real_x_crimetype_multiplier
+147,Fraud or Cheating,Delhi,18,state_bail_real_x_crimetype_multiplier
+150,Fraud or Cheating,Chhattisgarh,49,pooled_bail_real_x_crimetype_multiplier
+175,Fraud or Cheating,Delhi,10,state_bail_real_x_crimetype_multiplier
+176,Fraud or Cheating,Tamil Nadu,26,pooled_bail_real_x_crimetype_multiplier
+178,Fraud or Cheating,Himachal Pradesh,16,pooled_bail_real_x_crimetype_multiplier
+179,Theft or Robbery,Punjab,7,pooled_bail_real_x_crimetype_multiplier
+180,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+181,Theft or Robbery,Kerala,12,state_bail_real_x_crimetype_multiplier
+182,Fraud or Cheating,Haryana,561,pooled_bail_real_x_crimetype_multiplier
+187,Fraud or Cheating,Manipur,1,pooled_bail_real_x_crimetype_multiplier
+190,Fraud or Cheating,Delhi,69,state_bail_real_x_crimetype_multiplier
+199,Fraud or Cheating,Uttar Pradesh,19,state_bail_real_x_crimetype_multiplier
+200,Fraud or Cheating,Madhya Pradesh,1533,pooled_bail_real_x_crimetype_multiplier
+227,Theft or Robbery,Himachal Pradesh,34,pooled_bail_real_x_crimetype_multiplier
+241,Fraud or Cheating,Himachal Pradesh,17,pooled_bail_real_x_crimetype_multiplier
+242,Theft or Robbery,Maharashtra,590,state_bail_real_x_crimetype_multiplier
+243,Theft or Robbery,Punjab,72,pooled_bail_real_x_crimetype_multiplier
+245,Theft or Robbery,Delhi,1,state_bail_real_x_crimetype_multiplier
+246,Theft or Robbery,Gujarat,22,pooled_bail_real_x_crimetype_multiplier
+247,Theft or Robbery,Chhattisgarh,539,pooled_bail_real_x_crimetype_multiplier
+249,Theft or Robbery,Karnataka,148,pooled_bail_real_x_crimetype_multiplier
+250,Theft or Robbery,West Bengal,8,state_bail_real_x_crimetype_multiplier
+251,Theft or Robbery,Karnataka,216,pooled_bail_real_x_crimetype_multiplier
+252,Theft or Robbery,Uttar Pradesh,350,state_bail_real_x_crimetype_multiplier
+253,Theft or Robbery,Madhya Pradesh,31,pooled_bail_real_x_crimetype_multiplier
+254,Theft or Robbery,Bihar,92,state_bail_real_x_crimetype_multiplier
+255,Theft or Robbery,Uttar Pradesh,595,state_bail_real_x_crimetype_multiplier
+256,Theft or Robbery,Jharkhand,10,pooled_bail_real_x_crimetype_multiplier
+257,Theft or Robbery,Jharkhand,1,pooled_bail_real_x_crimetype_multiplier
+258,Theft or Robbery,Madhya Pradesh,49,pooled_bail_real_x_crimetype_multiplier
+259,Theft or Robbery,Bihar,20,state_bail_real_x_crimetype_multiplier
+260,Theft or Robbery,Kerala,39,state_bail_real_x_crimetype_multiplier
+262,Theft or Robbery,Bihar,36,state_bail_real_x_crimetype_multiplier
+263,Theft or Robbery,Jharkhand,13,pooled_bail_real_x_crimetype_multiplier
+264,Theft or Robbery,Bihar,41,state_bail_real_x_crimetype_multiplier
+265,Theft or Robbery,Jharkhand,46,pooled_bail_real_x_crimetype_multiplier
+266,Theft or Robbery,Gujarat,105,pooled_bail_real_x_crimetype_multiplier
+267,Theft or Robbery,Karnataka,41,pooled_bail_real_x_crimetype_multiplier
+269,Theft or Robbery,Uttar Pradesh,525,state_bail_real_x_crimetype_multiplier
+270,Theft or Robbery,Jammu & Kashmir,967,pooled_bail_real_x_crimetype_multiplier
+271,Theft or Robbery,Karnataka,16,pooled_bail_real_x_crimetype_multiplier
+272,Theft or Robbery,Karnataka,41,pooled_bail_real_x_crimetype_multiplier
+273,Theft or Robbery,Karnataka,125,pooled_bail_real_x_crimetype_multiplier
+274,Theft or Robbery,Gujarat,925,pooled_bail_real_x_crimetype_multiplier
+275,Theft or Robbery,Madhya Pradesh,1,pooled_bail_real_x_crimetype_multiplier
+276,Theft or Robbery,Rajasthan,12,pooled_bail_real_x_crimetype_multiplier
+277,Theft or Robbery,Uttar Pradesh,1533,state_bail_real_x_crimetype_multiplier
+278,Theft or Robbery,Chhattisgarh,34,pooled_bail_real_x_crimetype_multiplier
+279,Theft or Robbery,Karnataka,11,pooled_bail_real_x_crimetype_multiplier
+280,Theft or Robbery,West Bengal,5,state_bail_real_x_crimetype_multiplier
+281,Theft or Robbery,Chhattisgarh,8,pooled_bail_real_x_crimetype_multiplier
+282,Theft or Robbery,Karnataka,8,pooled_bail_real_x_crimetype_multiplier
+283,Theft or Robbery,Karnataka,29,pooled_bail_real_x_crimetype_multiplier
+284,Theft or Robbery,Rajasthan,10,pooled_bail_real_x_crimetype_multiplier
+285,Theft or Robbery,Jharkhand,561,pooled_bail_real_x_crimetype_multiplier
+286,Theft or Robbery,West Bengal,4,state_bail_real_x_crimetype_multiplier
+289,Theft or Robbery,Uttar Pradesh,109,state_bail_real_x_crimetype_multiplier
+290,Theft or Robbery,Karnataka,35,pooled_bail_real_x_crimetype_multiplier
+292,Theft or Robbery,Uttar Pradesh,77,state_bail_real_x_crimetype_multiplier
+294,Theft or Robbery,Bihar,8,state_bail_real_x_crimetype_multiplier
+296,Theft or Robbery,Bihar,41,state_bail_real_x_crimetype_multiplier
+297,Theft or Robbery,Bihar,122,state_bail_real_x_crimetype_multiplier
+298,Theft or Robbery,Bihar,13,state_bail_real_x_crimetype_multiplier
+299,Theft or Robbery,Karnataka,48,pooled_bail_real_x_crimetype_multiplier
+300,Theft or Robbery,Karnataka,22,pooled_bail_real_x_crimetype_multiplier
+304,Fraud or Cheating,Maharashtra,847,state_bail_real_x_crimetype_multiplier
+324,Fraud or Cheating,Madhya Pradesh,2,pooled_bail_real_x_crimetype_multiplier
+325,Fraud or Cheating,Andhra Pradesh,20,pooled_bail_real_x_crimetype_multiplier
+326,Fraud or Cheating,Maharashtra,207,state_bail_real_x_crimetype_multiplier
+339,Fraud or Cheating,Delhi,8,state_bail_real_x_crimetype_multiplier
+412,Fraud or Cheating,Maharashtra,25,state_bail_real_x_crimetype_multiplier
+413,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+414,Fraud or Cheating,Maharashtra,26,state_bail_real_x_crimetype_multiplier
+415,Fraud or Cheating,Karnataka,531,pooled_bail_real_x_crimetype_multiplier
+416,Theft or Robbery,Maharashtra,30,state_bail_real_x_crimetype_multiplier
+437,Theft or Robbery,Jharkhand,8,pooled_bail_real_x_crimetype_multiplier
+439,Fraud or Cheating,Maharashtra,25,state_bail_real_x_crimetype_multiplier
+508,Fraud or Cheating,Tamil Nadu,54,pooled_bail_real_x_crimetype_multiplier
+523,Fraud or Cheating,Karnataka,22,pooled_bail_real_x_crimetype_multiplier
+535,Fraud or Cheating,Tamil Nadu,7,pooled_bail_real_x_crimetype_multiplier
+547,Fraud or Cheating,Delhi,26,state_bail_real_x_crimetype_multiplier
+548,Fraud or Cheating,Kerala,279,state_bail_real_x_crimetype_multiplier
+553,Theft or Robbery,Maharashtra,158,state_bail_real_x_crimetype_multiplier
+555,Fraud or Cheating,West Bengal,8,state_bail_real_x_crimetype_multiplier
+560,Fraud or Cheating,Delhi,11,state_bail_real_x_crimetype_multiplier
+562,Fraud or Cheating,West Bengal,71,state_bail_real_x_crimetype_multiplier
+565,Fraud or Cheating,Rajasthan,3,pooled_bail_real_x_crimetype_multiplier
+566,Fraud or Cheating,Kerala,428,state_bail_real_x_crimetype_multiplier
+580,Fraud or Cheating,Odisha,1,pooled_bail_real_x_crimetype_multiplier
+594,Cyber Crime,Jharkhand,22,pooled_bail_real_x_crimetype_multiplier
+595,Fraud or Cheating,Karnataka,234,pooled_bail_real_x_crimetype_multiplier
+596,Cyber Crime,Bihar,29,state_bail_real_x_crimetype_multiplier
+600,Cyber Crime,Bihar,3,state_bail_real_x_crimetype_multiplier
+601,Cyber Crime,Bihar,42,state_bail_real_x_crimetype_multiplier
+603,Cyber Crime,Bihar,44,state_bail_real_x_crimetype_multiplier
+605,Cyber Crime,Bihar,13,state_bail_real_x_crimetype_multiplier
+606,Cyber Crime,Punjab,50,pooled_bail_real_x_crimetype_multiplier
+607,Cyber Crime,Punjab,92,pooled_bail_real_x_crimetype_multiplier
+608,Cyber Crime,Chandigarh,36,pooled_bail_real_x_crimetype_multiplier
+612,Cyber Crime,Uttar Pradesh,320,state_bail_real_x_crimetype_multiplier
+616,Fraud or Cheating,Maharashtra,223,state_bail_real_x_crimetype_multiplier
+617,Cyber Crime,Madhya Pradesh,22,pooled_bail_real_x_crimetype_multiplier
+622,Cyber Crime,Jharkhand,76,pooled_bail_real_x_crimetype_multiplier
+623,Cyber Crime,Jharkhand,57,pooled_bail_real_x_crimetype_multiplier
+624,Cyber Crime,Uttar Pradesh,265,state_bail_real_x_crimetype_multiplier
+625,Cyber Crime,Uttar Pradesh,62,state_bail_real_x_crimetype_multiplier
+626,Cyber Crime,Jharkhand,205,pooled_bail_real_x_crimetype_multiplier
+627,Cyber Crime,Jharkhand,13,pooled_bail_real_x_crimetype_multiplier
+628,Cyber Crime,Jharkhand,62,pooled_bail_real_x_crimetype_multiplier
+629,Cyber Crime,Jharkhand,153,pooled_bail_real_x_crimetype_multiplier
+630,Cyber Crime,Uttar Pradesh,109,state_bail_real_x_crimetype_multiplier
+631,Cyber Crime,Jharkhand,7,pooled_bail_real_x_crimetype_multiplier
+632,Cyber Crime,Jharkhand,77,pooled_bail_real_x_crimetype_multiplier
+633,Cyber Crime,Jharkhand,158,pooled_bail_real_x_crimetype_multiplier
+634,Cyber Crime,Jharkhand,13,pooled_bail_real_x_crimetype_multiplier
+638,Cyber Crime,Jharkhand,42,pooled_bail_real_x_crimetype_multiplier
+640,Cyber Crime,Bihar,271,state_bail_real_x_crimetype_multiplier
+641,Cyber Crime,Bihar,56,state_bail_real_x_crimetype_multiplier
+643,Fraud or Cheating,Maharashtra,753,state_bail_real_x_crimetype_multiplier
+645,Cyber Crime,Bihar,6,state_bail_real_x_crimetype_multiplier
+646,Cyber Crime,Bihar,21,state_bail_real_x_crimetype_multiplier
+647,Cyber Crime,Karnataka,35,pooled_bail_real_x_crimetype_multiplier
+648,Cyber Crime,Bihar,36,state_bail_real_x_crimetype_multiplier
+649,Cyber Crime,Uttar Pradesh,191,state_bail_real_x_crimetype_multiplier
+650,Fraud or Cheating,Karnataka,276,pooled_bail_real_x_crimetype_multiplier
+651,Fraud or Cheating,Haryana,559,pooled_bail_real_x_crimetype_multiplier
+652,Cyber Crime,Jharkhand,15,pooled_bail_real_x_crimetype_multiplier
+653,Cyber Crime,Bihar,18,state_bail_real_x_crimetype_multiplier
+654,Cyber Crime,Bihar,2,state_bail_real_x_crimetype_multiplier
+655,Cyber Crime,Bihar,92,state_bail_real_x_crimetype_multiplier
+656,Cyber Crime,Uttar Pradesh,1606,state_bail_real_x_crimetype_multiplier
+657,Cyber Crime,Jharkhand,7,pooled_bail_real_x_crimetype_multiplier
+658,Cyber Crime,Rajasthan,17,pooled_bail_real_x_crimetype_multiplier
+659,Cyber Crime,Karnataka,174,pooled_bail_real_x_crimetype_multiplier
+664,Cyber Crime,Jharkhand,7,pooled_bail_real_x_crimetype_multiplier
+665,Cyber Crime,Jharkhand,10,pooled_bail_real_x_crimetype_multiplier
+666,Cyber Crime,Puducherry,22,pooled_bail_real_x_crimetype_multiplier
+667,Cyber Crime,Jharkhand,13,pooled_bail_real_x_crimetype_multiplier
+668,Cyber Crime,Jharkhand,78,pooled_bail_real_x_crimetype_multiplier
+669,Cyber Crime,Jharkhand,20,pooled_bail_real_x_crimetype_multiplier
+670,Cyber Crime,Jharkhand,45,pooled_bail_real_x_crimetype_multiplier
+671,Cyber Crime,Jharkhand,26,pooled_bail_real_x_crimetype_multiplier
+672,Cyber Crime,Madhya Pradesh,18,pooled_bail_real_x_crimetype_multiplier
+673,Cyber Crime,Madhya Pradesh,3,pooled_bail_real_x_crimetype_multiplier
+674,Cyber Crime,Uttar Pradesh,320,state_bail_real_x_crimetype_multiplier
+676,Cyber Crime,Gujarat,22,pooled_bail_real_x_crimetype_multiplier
+677,Cyber Crime,Delhi,10,state_bail_real_x_crimetype_multiplier
+678,Cyber Crime,Uttarakhand,19,pooled_bail_real_x_crimetype_multiplier
+679,Cyber Crime,Assam,22,pooled_bail_real_x_crimetype_multiplier
+680,Theft or Robbery,Punjab,3,pooled_bail_real_x_crimetype_multiplier
+681,Cyber Crime,Uttar Pradesh,607,state_bail_real_x_crimetype_multiplier
+682,Cyber Crime,Haryana,8,pooled_bail_real_x_crimetype_multiplier
+683,Cyber Crime,Haryana,28,pooled_bail_real_x_crimetype_multiplier
+684,Cyber Crime,Haryana,26,pooled_bail_real_x_crimetype_multiplier
+686,Cyber Crime,Jharkhand,1,pooled_bail_real_x_crimetype_multiplier
+687,Cyber Crime,Jharkhand,41,pooled_bail_real_x_crimetype_multiplier
+688,Cyber Crime,Uttar Pradesh,654,state_bail_real_x_crimetype_multiplier
+689,Cyber Crime,Uttar Pradesh,35,state_bail_real_x_crimetype_multiplier
+690,Cyber Crime,Jharkhand,35,pooled_bail_real_x_crimetype_multiplier
+691,Cyber Crime,Jharkhand,10,pooled_bail_real_x_crimetype_multiplier
+692,Cyber Crime,Jharkhand,2,pooled_bail_real_x_crimetype_multiplier
+693,Cyber Crime,Uttar Pradesh,95,state_bail_real_x_crimetype_multiplier
+694,Cyber Crime,Uttar Pradesh,276,state_bail_real_x_crimetype_multiplier
+695,Cyber Crime,Uttar Pradesh,907,state_bail_real_x_crimetype_multiplier
+696,Cyber Crime,Uttar Pradesh,144,state_bail_real_x_crimetype_multiplier
+697,Cyber Crime,Jharkhand,26,pooled_bail_real_x_crimetype_multiplier
+698,Cyber Crime,Uttar Pradesh,1227,state_bail_real_x_crimetype_multiplier
+699,Cyber Crime,Bihar,25,state_bail_real_x_crimetype_multiplier
+700,Cyber Crime,Bihar,10,state_bail_real_x_crimetype_multiplier
+701,Cyber Crime,Bihar,34,state_bail_real_x_crimetype_multiplier
+702,Cyber Crime,Delhi,3,state_bail_real_x_crimetype_multiplier
+703,Cyber Crime,Karnataka,84,pooled_bail_real_x_crimetype_multiplier
+704,Cyber Crime,Jharkhand,82,pooled_bail_real_x_crimetype_multiplier
+705,Cyber Crime,Jharkhand,10,pooled_bail_real_x_crimetype_multiplier
+706,Cyber Crime,Jharkhand,844,pooled_bail_real_x_crimetype_multiplier
+708,Cyber Crime,Kerala,82,state_bail_real_x_crimetype_multiplier
+709,Cyber Crime,Kerala,13,state_bail_real_x_crimetype_multiplier
+710,Cyber Crime,Kerala,41,state_bail_real_x_crimetype_multiplier
+711,Fraud or Cheating,Gujarat,642,pooled_bail_real_x_crimetype_multiplier
+749,Fraud or Cheating,Himachal Pradesh,344,pooled_bail_real_x_crimetype_multiplier
+751,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+753,Theft or Robbery,Jharkhand,22,pooled_bail_real_x_crimetype_multiplier
+768,Fraud or Cheating,Chhattisgarh,6,pooled_bail_real_x_crimetype_multiplier
+773,Theft or Robbery,Himachal Pradesh,48,pooled_bail_real_x_crimetype_multiplier
+789,Cyber Crime,Maharashtra,198,state_bail_real_x_crimetype_multiplier
+798,Theft or Robbery,Punjab,29,pooled_bail_real_x_crimetype_multiplier
+799,Theft or Robbery,Bihar,52,state_bail_real_x_crimetype_multiplier
+801,Fraud or Cheating,Haryana,358,pooled_bail_real_x_crimetype_multiplier
+802,Cyber Crime,Punjab,9,pooled_bail_real_x_crimetype_multiplier
+803,Cyber Crime,Punjab,41,pooled_bail_real_x_crimetype_multiplier
+804,Cyber Crime,Punjab,49,pooled_bail_real_x_crimetype_multiplier
+805,Cyber Crime,Punjab,24,pooled_bail_real_x_crimetype_multiplier
+806,Cyber Crime,Punjab,85,pooled_bail_real_x_crimetype_multiplier
+807,Cyber Crime,Punjab,5,pooled_bail_real_x_crimetype_multiplier
+808,Cyber Crime,Punjab,8,pooled_bail_real_x_crimetype_multiplier
+809,Cyber Crime,Punjab,78,pooled_bail_real_x_crimetype_multiplier
+810,Cyber Crime,Punjab,5,pooled_bail_real_x_crimetype_multiplier
+811,Cyber Crime,Punjab,133,pooled_bail_real_x_crimetype_multiplier
+812,Cyber Crime,Punjab,49,pooled_bail_real_x_crimetype_multiplier
+813,Cyber Crime,Punjab,4,pooled_bail_real_x_crimetype_multiplier
+814,Cyber Crime,Punjab,13,pooled_bail_real_x_crimetype_multiplier
+815,Cyber Crime,Punjab,75,pooled_bail_real_x_crimetype_multiplier
+816,Cyber Crime,Punjab,119,pooled_bail_real_x_crimetype_multiplier
+817,Cyber Crime,Punjab,158,pooled_bail_real_x_crimetype_multiplier
+818,Cyber Crime,Punjab,531,pooled_bail_real_x_crimetype_multiplier
+819,Cyber Crime,Punjab,82,pooled_bail_real_x_crimetype_multiplier
+820,Cyber Crime,Punjab,11,pooled_bail_real_x_crimetype_multiplier
+821,Cyber Crime,Punjab,16,pooled_bail_real_x_crimetype_multiplier
+822,Cyber Crime,Punjab,10,pooled_bail_real_x_crimetype_multiplier
+823,Cyber Crime,Punjab,2,pooled_bail_real_x_crimetype_multiplier
+824,Cyber Crime,Punjab,5,pooled_bail_real_x_crimetype_multiplier
+825,Cyber Crime,Punjab,2,pooled_bail_real_x_crimetype_multiplier
+826,Cyber Crime,Punjab,46,pooled_bail_real_x_crimetype_multiplier
+827,Cyber Crime,Punjab,9,pooled_bail_real_x_crimetype_multiplier
+828,Cyber Crime,Punjab,320,pooled_bail_real_x_crimetype_multiplier
+829,Cyber Crime,Punjab,925,pooled_bail_real_x_crimetype_multiplier
+830,Cyber Crime,Punjab,4,pooled_bail_real_x_crimetype_multiplier
+831,Cyber Crime,Punjab,24,pooled_bail_real_x_crimetype_multiplier
+832,Cyber Crime,Punjab,13,pooled_bail_real_x_crimetype_multiplier
+833,Cyber Crime,Punjab,145,pooled_bail_real_x_crimetype_multiplier
+867,Fraud or Cheating,Maharashtra,24,state_bail_real_x_crimetype_multiplier
+875,Theft or Robbery,Karnataka,32,pooled_bail_real_x_crimetype_multiplier
+879,Fraud or Cheating,Uttar Pradesh,907,state_bail_real_x_crimetype_multiplier
+883,Fraud or Cheating,Odisha,49,pooled_bail_real_x_crimetype_multiplier
+884,Fraud or Cheating,Delhi,10,state_bail_real_x_crimetype_multiplier
+885,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+887,Fraud or Cheating,Chhattisgarh,197,pooled_bail_real_x_crimetype_multiplier
+888,Fraud or Cheating,Madhya Pradesh,13,pooled_bail_real_x_crimetype_multiplier
+889,Fraud or Cheating,Madhya Pradesh,553,pooled_bail_real_x_crimetype_multiplier
+890,Fraud or Cheating,Uttar Pradesh,85,state_bail_real_x_crimetype_multiplier
+892,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+893,Fraud or Cheating,Maharashtra,13,state_bail_real_x_crimetype_multiplier
+894,Theft or Robbery,Jharkhand,158,pooled_bail_real_x_crimetype_multiplier
+895,Theft or Robbery,Bihar,26,state_bail_real_x_crimetype_multiplier
+896,Theft or Robbery,Bihar,76,state_bail_real_x_crimetype_multiplier
+897,Fraud or Cheating,Madhya Pradesh,17,pooled_bail_real_x_crimetype_multiplier
+898,Fraud or Cheating,Uttar Pradesh,983,state_bail_real_x_crimetype_multiplier
+899,Fraud or Cheating,Karnataka,14,pooled_bail_real_x_crimetype_multiplier
+902,Fraud or Cheating,Gujarat,47,pooled_bail_real_x_crimetype_multiplier
+905,Theft or Robbery,Bihar,12,state_bail_real_x_crimetype_multiplier
+907,Theft or Robbery,Bihar,19,state_bail_real_x_crimetype_multiplier
+908,Theft or Robbery,Bihar,44,state_bail_real_x_crimetype_multiplier
+909,Theft or Robbery,Bihar,10,state_bail_real_x_crimetype_multiplier
+910,Theft or Robbery,Bihar,25,state_bail_real_x_crimetype_multiplier
+911,Theft or Robbery,Delhi,2,state_bail_real_x_crimetype_multiplier
+912,Theft or Robbery,Kerala,13,state_bail_real_x_crimetype_multiplier
+913,Theft or Robbery,Haryana,895,pooled_bail_real_x_crimetype_multiplier
+914,Theft or Robbery,Haryana,51,pooled_bail_real_x_crimetype_multiplier
+915,Theft or Robbery,Haryana,1,pooled_bail_real_x_crimetype_multiplier
+916,Theft or Robbery,Punjab,3,pooled_bail_real_x_crimetype_multiplier
+917,Theft or Robbery,Punjab,32,pooled_bail_real_x_crimetype_multiplier
+918,Theft or Robbery,Punjab,6,pooled_bail_real_x_crimetype_multiplier
+922,Theft or Robbery,Delhi,126,state_bail_real_x_crimetype_multiplier
+929,Fraud or Cheating,Madhya Pradesh,82,pooled_bail_real_x_crimetype_multiplier
+942,Fraud or Cheating,Andhra Pradesh,36,pooled_bail_real_x_crimetype_multiplier
+943,Theft or Robbery,Uttar Pradesh,618,state_bail_real_x_crimetype_multiplier
+948,Fraud or Cheating,Uttar Pradesh,224,state_bail_real_x_crimetype_multiplier
+951,Fraud or Cheating,Bihar,85,state_bail_real_x_crimetype_multiplier
+961,Fraud or Cheating,Punjab,15,pooled_bail_real_x_crimetype_multiplier
+963,Fraud or Cheating,Gujarat,118,pooled_bail_real_x_crimetype_multiplier
+964,Fraud or Cheating,Punjab,1,pooled_bail_real_x_crimetype_multiplier
+968,Fraud or Cheating,Delhi,10,state_bail_real_x_crimetype_multiplier
+974,Fraud or Cheating,Gujarat,38,pooled_bail_real_x_crimetype_multiplier
+981,Fraud or Cheating,Bihar,13,state_bail_real_x_crimetype_multiplier
+1001,Fraud or Cheating,Bihar,3,state_bail_real_x_crimetype_multiplier
+1002,Fraud or Cheating,Delhi,188,state_bail_real_x_crimetype_multiplier
+1003,Fraud or Cheating,Delhi,16,state_bail_real_x_crimetype_multiplier
+1004,Fraud or Cheating,Himachal Pradesh,83,pooled_bail_real_x_crimetype_multiplier
+1005,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+1006,Fraud or Cheating,Delhi,7,state_bail_real_x_crimetype_multiplier
+1007,Fraud or Cheating,Telangana,22,pooled_bail_real_x_crimetype_multiplier
+1008,Fraud or Cheating,Rajasthan,237,pooled_bail_real_x_crimetype_multiplier
+1020,Fraud or Cheating,Karnataka,7,pooled_bail_real_x_crimetype_multiplier
+1021,Fraud or Cheating,Maharashtra,21,state_bail_real_x_crimetype_multiplier
+1023,Theft or Robbery,Madhya Pradesh,42,pooled_bail_real_x_crimetype_multiplier
+1024,Theft or Robbery,Madhya Pradesh,276,pooled_bail_real_x_crimetype_multiplier
+1027,Fraud or Cheating,Maharashtra,358,state_bail_real_x_crimetype_multiplier
+1033,Theft or Robbery,Madhya Pradesh,3,pooled_bail_real_x_crimetype_multiplier
+1045,Theft or Robbery,Kerala,13,state_bail_real_x_crimetype_multiplier
+1073,Theft or Robbery,Rajasthan,66,pooled_bail_real_x_crimetype_multiplier
+1075,Fraud or Cheating,Delhi,7,state_bail_real_x_crimetype_multiplier
+1076,Fraud or Cheating,Maharashtra,590,state_bail_real_x_crimetype_multiplier
+1077,Theft or Robbery,Madhya Pradesh,32,pooled_bail_real_x_crimetype_multiplier
+1078,Theft or Robbery,Madhya Pradesh,45,pooled_bail_real_x_crimetype_multiplier
+1079,Theft or Robbery,Madhya Pradesh,13,pooled_bail_real_x_crimetype_multiplier
+1080,Theft or Robbery,Punjab,22,pooled_bail_real_x_crimetype_multiplier
+1081,Theft or Robbery,Madhya Pradesh,12,pooled_bail_real_x_crimetype_multiplier
+1082,Theft or Robbery,Madhya Pradesh,967,pooled_bail_real_x_crimetype_multiplier
+1087,Theft or Robbery,Madhya Pradesh,13,pooled_bail_real_x_crimetype_multiplier
+1090,Theft or Robbery,Maharashtra,1128,state_bail_real_x_crimetype_multiplier
+1091,Theft or Robbery,Telangana,11,pooled_bail_real_x_crimetype_multiplier
+1092,Theft or Robbery,Madhya Pradesh,61,pooled_bail_real_x_crimetype_multiplier
+1093,Theft or Robbery,Chhattisgarh,13,pooled_bail_real_x_crimetype_multiplier
+1094,Theft or Robbery,Madhya Pradesh,7,pooled_bail_real_x_crimetype_multiplier
+1096,Fraud or Cheating,Punjab and Haryana,148,pooled_bail_real_x_crimetype_multiplier
+1097,Theft or Robbery,Delhi,1,state_bail_real_x_crimetype_multiplier
+1098,Theft or Robbery,Maharashtra,344,state_bail_real_x_crimetype_multiplier
+1100,Theft or Robbery,Maharashtra,11,state_bail_real_x_crimetype_multiplier
+1101,Fraud or Cheating,Maharashtra,11,state_bail_real_x_crimetype_multiplier
+1115,Fraud or Cheating,Haryana,18,pooled_bail_real_x_crimetype_multiplier
+1117,Fraud or Cheating,Punjab,78,pooled_bail_real_x_crimetype_multiplier
+1118,Fraud or Cheating,Madhya Pradesh,24,pooled_bail_real_x_crimetype_multiplier
+1119,Theft or Robbery,Jharkhand,49,pooled_bail_real_x_crimetype_multiplier
+1121,Theft or Robbery,West Bengal,28,state_bail_real_x_crimetype_multiplier
+1123,Fraud or Cheating,Madhya Pradesh,5,pooled_bail_real_x_crimetype_multiplier
+1131,Fraud or Cheating,Kerala,17,state_bail_real_x_crimetype_multiplier
+1139,Fraud or Cheating,Madhya Pradesh,6,pooled_bail_real_x_crimetype_multiplier
+1140,Fraud or Cheating,Madhya Pradesh,8,pooled_bail_real_x_crimetype_multiplier
+1141,Fraud or Cheating,Chhattisgarh,40,pooled_bail_real_x_crimetype_multiplier
+1142,Fraud or Cheating,Bihar,31,state_bail_real_x_crimetype_multiplier
+1143,Theft or Robbery,Bihar,39,state_bail_real_x_crimetype_multiplier
+1144,Theft or Robbery,Karnataka,6,pooled_bail_real_x_crimetype_multiplier
+1149,Theft or Robbery,Jharkhand,4,pooled_bail_real_x_crimetype_multiplier
+1150,Theft or Robbery,Bihar,14,state_bail_real_x_crimetype_multiplier
+1151,Theft or Robbery,Bihar,2,state_bail_real_x_crimetype_multiplier
+1152,Fraud or Cheating,Madhya Pradesh,52,pooled_bail_real_x_crimetype_multiplier
+1153,Fraud or Cheating,Madhya Pradesh,148,pooled_bail_real_x_crimetype_multiplier
+1154,Theft or Robbery,Karnataka,925,pooled_bail_real_x_crimetype_multiplier
+1155,Fraud or Cheating,Delhi,43,state_bail_real_x_crimetype_multiplier
+1156,Fraud or Cheating,Gujarat,44,pooled_bail_real_x_crimetype_multiplier
+1157,Fraud or Cheating,Delhi,2,state_bail_real_x_crimetype_multiplier
+1158,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+1159,Fraud or Cheating,Uttar Pradesh,1,state_bail_real_x_crimetype_multiplier
+1160,Theft or Robbery,Jharkhand,35,pooled_bail_real_x_crimetype_multiplier
+1161,Fraud or Cheating,Delhi,1,state_bail_real_x_crimetype_multiplier
+1162,Fraud or Cheating,Uttar Pradesh,36,state_bail_real_x_crimetype_multiplier
+1163,Theft or Robbery,Jharkhand,25,pooled_bail_real_x_crimetype_multiplier
+1164,Fraud or Cheating,Gujarat,20,pooled_bail_real_x_crimetype_multiplier
+1165,Theft or Robbery,Jharkhand,34,pooled_bail_real_x_crimetype_multiplier
+1166,Theft or Robbery,Maharashtra,8,state_bail_real_x_crimetype_multiplier
+1167,Theft or Robbery,Bihar,18,state_bail_real_x_crimetype_multiplier
+1172,Theft or Robbery,Bihar,14,state_bail_real_x_crimetype_multiplier
+1173,Theft or Robbery,Bihar,133,state_bail_real_x_crimetype_multiplier
+1174,Theft or Robbery,Bihar,61,state_bail_real_x_crimetype_multiplier
+1175,Fraud or Cheating,Madhya Pradesh,8,pooled_bail_real_x_crimetype_multiplier
+1176,Theft or Robbery,Bihar,20,state_bail_real_x_crimetype_multiplier
+1177,Fraud or Cheating,Uttar Pradesh,1715,state_bail_real_x_crimetype_multiplier
+1178,Fraud or Cheating,Delhi,14,state_bail_real_x_crimetype_multiplier
+1179,Fraud or Cheating,Delhi,5,state_bail_real_x_crimetype_multiplier
+1180,Fraud or Cheating,Uttar Pradesh,1269,state_bail_real_x_crimetype_multiplier
+1181,Fraud or Cheating,West Bengal,38,state_bail_real_x_crimetype_multiplier
+1182,Theft or Robbery,Rajasthan,8,pooled_bail_real_x_crimetype_multiplier
+1185,Theft or Robbery,Bihar,61,state_bail_real_x_crimetype_multiplier
+1187,Fraud or Cheating,Odisha,118,pooled_bail_real_x_crimetype_multiplier
+1188,Fraud or Cheating,Odisha,4,pooled_bail_real_x_crimetype_multiplier
+1189,Theft or Robbery,Bihar,6,state_bail_real_x_crimetype_multiplier
+1190,Theft or Robbery,Madhya Pradesh,12,pooled_bail_real_x_crimetype_multiplier
+1191,Theft or Robbery,Karnataka,1,pooled_bail_real_x_crimetype_multiplier
+1193,Theft or Robbery,Bihar,41,state_bail_real_x_crimetype_multiplier
+1195,Theft or Robbery,Jharkhand,93,pooled_bail_real_x_crimetype_multiplier
+1198,Fraud or Cheating,Uttar Pradesh,21,state_bail_real_x_crimetype_multiplier
+1200,Fraud or Cheating,Assam,409,pooled_bail_real_x_crimetype_multiplier
