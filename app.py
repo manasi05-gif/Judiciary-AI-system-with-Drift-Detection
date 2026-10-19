@@ -300,12 +300,12 @@ h1, h2, h3, h4, h5, h6, .serif-font,
 [data-testid="stMarkdownContainer"] h3,
 [data-testid="stMarkdownContainer"] h4,
 [data-testid="stMarkdownContainer"] h5,
-[data-testid="stMarkdownContainer"] h6 {
+[data-testid="stMarkdownContainer"] h6 {{
     font-family: 'Playfair Display', Georgia, serif !important;
     font-weight: 700 !important;
     color: {COLOR_PRIMARY} !important;
     letter-spacing: -0.2px;
-}
+}}
 
 /* Streamlit Labels & Captions */
 label,
@@ -313,16 +313,16 @@ label,
 [data-testid="stWidgetLabel"] p,
 [data-testid="stWidgetLabel"] label,
 .stWidgetLabel,
-.stWidgetLabel p {
+.stWidgetLabel p {{
     color: {COLOR_TEXT} !important;
     font-weight: 600 !important;
     font-size: 13.5px !important;
-}
+}}
 .stCaption,
 [data-testid="stCaptionContainer"],
-[data-testid="stCaptionContainer"] p {
+[data-testid="stCaptionContainer"] p {{
     color: {COLOR_MUTED} !important;
-}
+}}
 
 /* Institutional Header Bar */
 .inst-header {{
@@ -571,7 +571,7 @@ button[kind="primary"]:hover {{
 .stTextInput input,
 .stTextArea > div > div > textarea,
 .stTextArea textarea,
-[data-baseweb="select"] > div {
+[data-baseweb="select"] > div {{
     background-color: #FFFFFF !important;
     color: {COLOR_TEXT} !important;
     border-radius: 10px !important;
@@ -579,38 +579,38 @@ button[kind="primary"]:hover {{
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-size: 13.5px !important;
     transition: all 0.2s ease !important;
-}
+}}
 [data-baseweb="input"] input::placeholder,
 .stTextInput input::placeholder,
-.stTextArea textarea::placeholder {
+.stTextArea textarea::placeholder {{
     color: #94A3B8 !important;
-}
+}}
 .stTextInput > div > div > input:focus,
-.stTextArea > div > div > textarea:focus {
+.stTextArea > div > div > textarea:focus {{
     border-color: #D97706 !important;
     box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.15) !important;
-}
+}}
 
 /* Streamlit Expander Styling */
 details,
 [data-testid="stExpander"],
 div[data-testid="stExpander"] details,
-div[data-testid="stExpander"] {
+div[data-testid="stExpander"] {{
     background: #FFFFFF !important;
     border: 1px solid #E2E8F0 !important;
     border-radius: 12px !important;
     box-shadow: 0 1px 3px rgba(0,0,0,0.02) !important;
     margin-bottom: 12px !important;
-}
+}}
 details summary,
 [data-testid="stExpander"] summary,
 div[data-testid="stExpander"] summary,
 div[data-testid="stExpander"] summary span,
-div[data-testid="stExpander"] summary p {
+div[data-testid="stExpander"] summary p {{
     font-weight: 600 !important;
     color: #0A192F !important;
     font-size: 14px !important;
-}
+}}
 
 /* Dataframe Container Styling */
 div[data-testid="stDataFrame"] {{
