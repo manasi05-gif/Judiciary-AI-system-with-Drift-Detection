@@ -23,15 +23,17 @@ import html
 import textwrap
 import streamlit as st
 
-# Automatically dedent HTML blocks passed to st.markdown to prevent CommonMark indented-code parsing
-_orig_st_markdown = st.markdown
+# Automatically dedent HTML blocks passed to markdown to prevent CommonMark indented-code parsing
+import streamlit.delta_generator as _dg_module
 
-def _safe_st_markdown(body, *args, **kwargs):
+_orig_dg_markdown = _dg_module.DeltaGenerator.markdown
+
+def _safe_dg_markdown(self, body, *args, **kwargs):
     if kwargs.get("unsafe_allow_html", False) and isinstance(body, str):
         body = textwrap.dedent(body).strip()
-    return _orig_st_markdown(body, *args, **kwargs)
+    return _orig_dg_markdown(self, body, *args, **kwargs)
 
-st.markdown = _safe_st_markdown
+_dg_module.DeltaGenerator.markdown = _safe_dg_markdown
 
 # ----------------------------------------------------------------------------
 # PAGE CONFIGURATION & METADATA
@@ -292,12 +294,35 @@ div[data-testid="stPopoverBody"] {{
 }}
 
 /* Typography */
-h1, h2, h3, .serif-font {{
+h1, h2, h3, h4, h5, h6, .serif-font,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+[data-testid="stMarkdownContainer"] h4,
+[data-testid="stMarkdownContainer"] h5,
+[data-testid="stMarkdownContainer"] h6 {
     font-family: 'Playfair Display', Georgia, serif !important;
     font-weight: 700 !important;
     color: {COLOR_PRIMARY} !important;
     letter-spacing: -0.2px;
-}}
+}
+
+/* Streamlit Labels & Captions */
+label,
+[data-testid="stWidgetLabel"],
+[data-testid="stWidgetLabel"] p,
+[data-testid="stWidgetLabel"] label,
+.stWidgetLabel,
+.stWidgetLabel p {
+    color: {COLOR_TEXT} !important;
+    font-weight: 600 !important;
+    font-size: 13.5px !important;
+}
+.stCaption,
+[data-testid="stCaptionContainer"],
+[data-testid="stCaptionContainer"] p {
+    color: {COLOR_MUTED} !important;
+}
 
 /* Institutional Header Bar */
 .inst-header {{
@@ -539,34 +564,53 @@ button[kind="primary"]:hover {{
 }}
 
 /* Streamlit Input Overrides */
+[data-baseweb="input"],
+[data-baseweb="input"] input,
+[data-baseweb="base-input"] input,
 .stTextInput > div > div > input,
-.stSelectbox > div > div,
-.stTextArea > div > div > textarea {{
+.stTextInput input,
+.stTextArea > div > div > textarea,
+.stTextArea textarea,
+[data-baseweb="select"] > div {
+    background-color: #FFFFFF !important;
+    color: {COLOR_TEXT} !important;
     border-radius: 10px !important;
     border: 1.5px solid #CBD5E1 !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-size: 13.5px !important;
     transition: all 0.2s ease !important;
-}}
+}
+[data-baseweb="input"] input::placeholder,
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #94A3B8 !important;
+}
 .stTextInput > div > div > input:focus,
-.stTextArea > div > div > textarea:focus {{
+.stTextArea > div > div > textarea:focus {
     border-color: #D97706 !important;
     box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.15) !important;
-}}
+}
 
 /* Streamlit Expander Styling */
-div[data-testid="stExpander"] {{
+details,
+[data-testid="stExpander"],
+div[data-testid="stExpander"] details,
+div[data-testid="stExpander"] {
     background: #FFFFFF !important;
     border: 1px solid #E2E8F0 !important;
     border-radius: 12px !important;
     box-shadow: 0 1px 3px rgba(0,0,0,0.02) !important;
     margin-bottom: 12px !important;
-}}
-div[data-testid="stExpander"] summary {{
+}
+details summary,
+[data-testid="stExpander"] summary,
+div[data-testid="stExpander"] summary,
+div[data-testid="stExpander"] summary span,
+div[data-testid="stExpander"] summary p {
     font-weight: 600 !important;
     color: #0A192F !important;
     font-size: 14px !important;
-}}
+}
 
 /* Dataframe Container Styling */
 div[data-testid="stDataFrame"] {{
@@ -2499,10 +2543,12 @@ def render_overview():
             textposition="top center"
         ))
         fig1.update_layout(
-            yaxis=dict(title="Number of Cases", showgrid=True, gridcolor="#F1F5F9"),
-            yaxis2=dict(title="Avg Disposal (Days)", overlaying="y", side="right", showgrid=False),
+            font=dict(color=COLOR_TEXT, family="Plus Jakarta Sans"),
+            xaxis=dict(tickfont=dict(color=COLOR_TEXT)),
+            yaxis=dict(title=dict(text="Number of Cases", font=dict(color=COLOR_TEXT)), showgrid=True, gridcolor="#F1F5F9", tickfont=dict(color=COLOR_TEXT)),
+            yaxis2=dict(title=dict(text="Avg Disposal (Days)", font=dict(color=COLOR_TEXT)), overlaying="y", side="right", showgrid=False, tickfont=dict(color=COLOR_TEXT)),
             plot_bgcolor="white", paper_bgcolor="white",
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(color=COLOR_TEXT)),
             margin=dict(l=10, r=10, t=10, b=10),
             height=340
         )
@@ -2520,6 +2566,7 @@ def render_overview():
             hoverinfo="label+value+percent"
         )])
         fig2.update_layout(
+            font=dict(color=COLOR_TEXT, family="Plus Jakarta Sans"),
             plot_bgcolor="white", paper_bgcolor="white",
             showlegend=False,
             margin=dict(l=10, r=10, t=10, b=10),
@@ -2539,9 +2586,10 @@ def render_overview():
             text="count", color_discrete_sequence=[COLOR_SECONDARY]
         )
         fig3.update_layout(
+            font=dict(color=COLOR_TEXT, family="Plus Jakarta Sans"),
             plot_bgcolor="white", paper_bgcolor="white",
-            xaxis=dict(showgrid=True, gridcolor="#F1F5F9"),
-            yaxis=dict(autorange="reversed"),
+            xaxis=dict(showgrid=True, gridcolor="#F1F5F9", tickfont=dict(color=COLOR_TEXT)),
+            yaxis=dict(autorange="reversed", tickfont=dict(color=COLOR_TEXT)),
             margin=dict(l=10, r=10, t=10, b=10),
             height=300
         )
@@ -2557,9 +2605,10 @@ def render_overview():
             text="count", color_discrete_sequence=[COLOR_ACCENT]
         )
         fig4.update_layout(
+            font=dict(color=COLOR_TEXT, family="Plus Jakarta Sans"),
             plot_bgcolor="white", paper_bgcolor="white",
-            xaxis=dict(showgrid=True, gridcolor="#F1F5F9"),
-            yaxis=dict(autorange="reversed"),
+            xaxis=dict(showgrid=True, gridcolor="#F1F5F9", tickfont=dict(color=COLOR_TEXT)),
+            yaxis=dict(autorange="reversed", tickfont=dict(color=COLOR_TEXT)),
             margin=dict(l=10, r=10, t=10, b=10),
             height=300
         )
